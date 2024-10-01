@@ -39,7 +39,7 @@ Example:
 If my cwd is /tmp, then a relative path to the file is a/b/my_file.
 If my cwd is /, then a relative path to the file is tmp/a/b/my_file.
 ```
-*..* refers to the parent directory of the cwd.
+*..* refers to the parent directory of the cwd. <br>
 ***Commmand***
 ```
 1. cd ..
@@ -48,7 +48,7 @@ If my cwd is /, then a relative path to the file is tmp/a/b/my_file.
    ./run
 
 ```
-***Output***
+***Output** <br>
 ![{78B631A2-209B-4876-BE49-33E90EF85F13}](https://github.com/user-attachments/assets/75c328fe-291c-47a4-8965-de6063be20fd)
 ![{7CE76D45-270C-423D-847F-2B1556BFADF4}](https://github.com/user-attachments/assets/6896fdc6-6f93-428e-abc1-4526eeb5dca2)
 
@@ -69,13 +69,13 @@ abc/././././
 ./abc
 abc
 ```
-***Commmand***
+***Commmand*** 
 ```
 cd ..
 ./challenge/run
 
 ```
-***Output***
+***Output*** <br>
 ![{BAFB1803-8EAF-47D4-81B1-41D9B09EB369}](https://github.com/user-attachments/assets/fdcdd531-0bdb-4565-93c5-c5c1c631e1f5)
 
 # Home-Sweet-Home
@@ -89,11 +89,11 @@ The argument which is to be executed is known as the *executable*
 /executable /file_name -----> syntax to specify a file as an argument
 "file_name" is basically the location where you want the executable to be executed.
 ```
-***Command****
+***Command***
 ```
 /challenge/run ~/a
 ```
-***Output***
+***Output*** <br>
 ![image](https://github.com/user-attachments/assets/280bba08-54f3-4e77-a00c-6b091cd94791)
 
 
