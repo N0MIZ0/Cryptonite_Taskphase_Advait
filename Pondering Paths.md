@@ -1,5 +1,5 @@
 # The Root and Absolute Path
-All the file systems start with **/**.
+All the file systems start with **/**. <br>
 This style of path is called *absolute path*
 # Position thy self and Elsewhere
 cd (**C**hanging **D**irectory) command is used to navigate around directories
