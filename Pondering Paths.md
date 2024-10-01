@@ -6,7 +6,7 @@ cd (**C**hanging **D**irectory) command is used to navigate around directories
 and change the cwd (**C**urrent **W**orking **D**irectory)
 # Relative Path
 ## Implicit from **/**
-Basically it's the relative path to a directory from the cwd. 
+Basically it's the relative path to a directory from the cwd. <br>
 Example:
 ``` 
 If my cwd is /tmp, then a relative path to the file is a/b/my_file.
@@ -14,7 +14,7 @@ If my cwd is /, then a relative path to the file is tmp/a/b/my_file.
 ```
 *..* refers to the parent directory of the cwd.
 ## Explicit from **/**
-**.** refers right to the same directory
+**.** refers right to the same directory. <br>
 Example: (Following Absolute Paths are same)
 ```
 /abc
@@ -28,10 +28,10 @@ abc/././././
 abc
 ```
 # Home-Sweet-Home
-*every user has a home directory where all the personal files are stored.* 
+*every user has a home directory where all the personal files are stored.* <br>
 the home directory is shortened to **~** for easier usage. 
 **~** can be used instead of writing the entire file name of the home directory. 
-Also,  
+Also,<br>
 Learnt how to specify a file as an argument.
 The argument which is to be executed is known as the *executable*
 ```
