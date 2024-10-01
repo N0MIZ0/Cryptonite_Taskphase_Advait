@@ -3,8 +3,8 @@ All the file systems start with **/**. <br>
 This style of path is called *absolute path*<br>
 ***Command***
 ```
-/pwn
-/challenge/run
+1. /pwn
+2. /challenge/run
 ```
 ***Output*** <br>
 ![{C72A1A09-3B99-40B4-95FA-E0C8A87356E5}](https://github.com/user-attachments/assets/fed94f0d-bc48-4adb-8500-d44ee3d6a92f)
@@ -41,6 +41,18 @@ If my cwd is /, then a relative path to the file is tmp/a/b/my_file.
 ```
 *..* refers to the parent directory of the cwd.
 ***Commmand***
+```
+1. cd ..
+   challenge/run
+2. cd /challenge
+   ./run
+
+```
+***Output***
+![{78B631A2-209B-4876-BE49-33E90EF85F13}](https://github.com/user-attachments/assets/75c328fe-291c-47a4-8965-de6063be20fd)
+![{7CE76D45-270C-423D-847F-2B1556BFADF4}](https://github.com/user-attachments/assets/6896fdc6-6f93-428e-abc1-4526eeb5dca2)
+
+
 
 
 ## Explicit from **/**
@@ -58,7 +70,13 @@ abc/././././
 abc
 ```
 ***Commmand***
+```
+cd ..
+./challenge/run
 
+```
+***Output***
+![{BAFB1803-8EAF-47D4-81B1-41D9B09EB369}](https://github.com/user-attachments/assets/fdcdd531-0bdb-4565-93c5-c5c1c631e1f5)
 
 # Home-Sweet-Home
 *every user has a home directory where all the personal files are stored.* <br>
@@ -71,6 +89,12 @@ The argument which is to be executed is known as the *executable*
 /executable /file_name -----> syntax to specify a file as an argument
 "file_name" is basically the location where you want the executable to be executed.
 ```
+***Command****
+```
+/challenge/run ~/a
+```
+***Output***
+![image](https://github.com/user-attachments/assets/280bba08-54f3-4e77-a00c-6b091cd94791)
 
 
 
