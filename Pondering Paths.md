@@ -27,7 +27,7 @@ abc/././././
 ./abc
 abc
 ```
-## Home-Sweet-Home
+# Home-Sweet-Home
 *every user has a home directory where all the personal files are stored*
 the home directory is shortened to **~** for easier usage
 **~** can be used instead of writing the entire file name of the home directory
