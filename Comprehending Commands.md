@@ -33,6 +33,7 @@ cat /opt/aflplusplus/testcases/flag
 # Grep
 **Grep** helps in finding strings in large files. It can search a larger content than **cat** command.<br>
 Syntax--> grep STRING_NAME /absolute/path<br>
+*CTF always comes with a red highlight over it when you read it using **grep***<br>
 ***Command***
 ```
 grep pwn.college /challenge/data.txt
