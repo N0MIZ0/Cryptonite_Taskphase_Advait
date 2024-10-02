@@ -98,6 +98,8 @@ ls
 Hence to view them, we add **-a** to the **ls** command.
 <br>
 Syntax ---> ls -a <br>
+I simply changed my directory to root and checked for hiddne files. Found a hidden file named *flag*<br>
+Then tried running it, but didnt work so I just used the **grep** command to read the flag stored in it. <br>
 ***Commands***
 ```
  cd /
