@@ -40,6 +40,25 @@ grep pwn.college /challenge/data.txt
 ***Output***<br>
 ![{D15C9E0D-B9ED-4365-834F-7B597059A0D1}](https://github.com/user-attachments/assets/3bd0c4ac-793f-4742-8d57-57871658d23b)
 
+# Files
+## Listing
+Directories have lots of files as well as other *directories* within them.<br>
+The **ls** command is used to list out all the files within the provided directory as an argument. <br>
+If no directory is provided as an argument, then it lists out the files of the current directory.
+<br>
+Syntax ---> **ls /path**
+<br>
+Here, I first had to use the **ls** command to list out files from *challenge*<br>
+I found 2 files, I could have ran both, but I used **cat** command to check which one was the right file and then ran it.
+***Commands***
+```
+ ls /challenge
+ cat /DESCRIPTION.md
+ cat /30100-rename-run-21950
+ /challenge/30100-rename-run-21950
+```
+***Output***<br>
+![{11B262DC-203C-4071-92B1-EEA1F5AB0570}](https://github.com/user-attachments/assets/a7ab63a1-f38c-4235-9189-3744583815e7)
 
 
 
