@@ -49,7 +49,7 @@ If no directory is provided as an argument, then it lists out the files of the c
 Syntax ---> **ls /path**
 <br>
 Here, I first had to use the **ls** command to list out files from *challenge*<br>
-I found 2 files, I could have ran both, but I used **cat** command to check which one was the right file and then ran it.
+I found 2 files, I could have ran both, but I used **cat** command to check which one was the right file and then ran it. <br>
 ***Commands***
 ```
  ls /challenge
