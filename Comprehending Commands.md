@@ -50,6 +50,7 @@ Syntax ---> **ls /path**
 <br>
 Here, I first had to use the **ls** command to list out files from *challenge*<br>
 I found 2 files, I could have ran both, but I used **cat** command to check which one was the right file and then ran it. <br>
+*Just because I am in **/challenge** does not mean can just run **/run**, because adding a **/** itself to a file means that I am in root. Hence have to write the full executable which is **/challenge/run** even when I am already in the **/challenge** directory*
 ***Commands***
 ```
  ls /challenge
@@ -59,6 +60,23 @@ I found 2 files, I could have ran both, but I used **cat** command to check whic
 ```
 ***Output***<br>
 ![{11B262DC-203C-4071-92B1-EEA1F5AB0570}](https://github.com/user-attachments/assets/a7ab63a1-f38c-4235-9189-3744583815e7)
+
+## Touching 
+Blank files can be created by *touching* with **touch** command.
+Syntax                                                          ---> touch /absolute/path <br>
+Syntax (when you are in the directory you want to add the file) ---> touch <file_name> <br>
+***Commands***
+```
+ cd /tmp
+ ls
+ touch pwn
+ touch college
+ /challenge/run
+```
+
+***Output***<br>
+![{4D0BB335-F55B-49C7-BEE5-65957B4F1276}](https://github.com/user-attachments/assets/436967a1-fb6d-4688-bc32-575b8f5319c1)
+
 
 
 
