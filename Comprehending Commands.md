@@ -49,8 +49,9 @@ If no directory is provided as an argument, then it lists out the files of the c
 Syntax ---> **ls /path**
 <br>
 Here, I first had to use the **ls** command to list out files from *challenge*<br>
-I found 2 files, I could have ran both, but I used **cat** command to check which one was the right file and then ran it. <br>
-*Just because I am in **/challenge** does not mean can just run **/run**, because adding a **/** itself to a file means that I am in root. Hence have to write the full executable which is **/challenge/run** even when I am already in the **/challenge** directory*
+I found 2 files, I could have ran both, but I used **cat** command to check which one was the right file and then ran it. <br><br>
+*Just because I am in **/challenge** does not mean can just run **/run**, because adding a **/** itself to a file means that I am in root. Hence have to write the full executable which is **/challenge/run** even when I am already in the **/challenge** directory*<br>
+*But, since I am in **/challenge**, I can use just **run** or **./run** instead of using the entire executable* <br>
 ***Commands***
 ```
  ls /challenge
@@ -76,6 +77,38 @@ Syntax (when you are in the directory you want to add the file) ---> touch <file
 
 ***Output***<br>
 ![{4D0BB335-F55B-49C7-BEE5-65957B4F1276}](https://github.com/user-attachments/assets/436967a1-fb6d-4688-bc32-575b8f5319c1)
+
+## Removing
+Use **rm** command to remove files. <br>
+Syntax                                                          ---> rm /absolute/path <br>
+Syntax (when you are in the directory you want to add the file) ---> rm <file_name> <br>
+***Commands***
+```
+cd ..
+rm delete_me
+ls
+/challenge/check
+```
+***Output***<br>
+![{233FD1BD-75AF-4EF3-BE90-EB57425BCFB8}](https://github.com/user-attachments/assets/918a7977-e86d-4f1a-a3be-3244121bf880)
+
+## Hidden Files
+**ls** does not show all files which start with "**.**"<br>
+Hence to view them, we add **-a** to the **ls** command.
+<br>
+Syntax ---> ls -a <br>
+***Commands***
+```
+ cd /
+ ls
+ ls -a
+ .flag-185622975415992
+ grep pwn.college /.flag-185622975415992
+```
+***Output***<br>
+![{21F1D1E8-9CC9-412B-AA58-830D22C2643D}](https://github.com/user-attachments/assets/a3293e99-a5eb-467d-ba36-5de5268154bf)
+
+
 
 
 
