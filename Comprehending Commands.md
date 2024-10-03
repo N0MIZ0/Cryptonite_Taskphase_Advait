@@ -112,7 +112,36 @@ Then tried running it, but didnt work so I just used the **grep** command to rea
 ![{21F1D1E8-9CC9-412B-AA58-830D22C2643D}](https://github.com/user-attachments/assets/a3293e99-a5eb-467d-ba36-5de5268154bf)
 
 
+# Epic Filesystem Quest
+Terminal kept giving clues by telling me to go to different directories and **list** files and cat the ones with particular names. <br>
+Fre files were easy to find whereas few were hidden files and hence had to use **ls -a** to find them. There was a certain command which told me to access the file without changind my directory, but I carelessly changed directory resulting in the destruction of the file and restrarting of the challenge. <br>
+I then came back to this step on my second try and made sure not to change the directory.<br>
 
 
+<br>
+***Commands***
+```
+cd /
+ls
+cat DISPATCH
+cd /opt/linux/linux-5.4/include/config/tmpfs
+ls
+cat EVIDENCE
+cd /opt/angr-management/_internal/jedi/third_party/typeshed/third_party/2and3/requests
+ls -a
+cat .TIP
+cd /usr/lib/R/library/splines/libs
+ls
+cat REVELATION
+cd /
+cd /opt/radare2/libr/arch/p/arm/v35/arch-armv7/.git/branches
+cat MEMO
+cd /opt/linux/linux-5.4/tools/testing/selftests/cpu-hotplug
+ls -a
+cat .DOSSIER
+cd /opt/radare2/test/notworking_db/linux-arm
+ls
+cat README
+```
 
 
