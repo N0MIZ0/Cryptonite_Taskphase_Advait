@@ -120,28 +120,28 @@ I then came back to this step on my second try and made sure not to change the d
 
 <br>
 ***Commands***
+
 ```
-cd /
-ls
-cat DISPATCH
-cd /opt/linux/linux-5.4/include/config/tmpfs
-ls
-cat EVIDENCE
-cd /opt/angr-management/_internal/jedi/third_party/typeshed/third_party/2and3/requests
-ls -a
-cat .TIP
-cd /usr/lib/R/library/splines/libs
-ls
-cat REVELATION
-cd /
-cd /opt/radare2/libr/arch/p/arm/v35/arch-armv7/.git/branches
-cat MEMO
-cd /opt/linux/linux-5.4/tools/testing/selftests/cpu-hotplug
-ls -a
-cat .DOSSIER
-cd /opt/radare2/test/notworking_db/linux-arm
-ls
+  cd /
+ ls
+ cat DISPATCH
+ cd /opt/linux/linux-5.4/include/config/tmpfs
+ ls
+ cat EVIDENCE
+ cd /opt/angr-management/_internal/jedi/third_party/typeshed/third_party/2and3/requests
+ ls -a
+ cat .TIP
+ cd /usr/lib/R/library/splines/libs
+ ls
+ cat REVELATION
+ cd /
+ cd /opt/radare2/libr/arch/p/arm/v35/arch-armv7/.git/branches
+ cat MEMO
+ cd /opt/linux/linux-5.4/tools/testing/selftests/cpu-hotplug
+ ls -a
+ cat .DOSSIER
+ cd /opt/radare2/test/notworking_db/linux-arm
+ ls
 cat README
+
 ```
-
-
