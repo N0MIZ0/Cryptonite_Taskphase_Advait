@@ -116,11 +116,8 @@ Then tried running it, but didnt work so I just used the **grep** command to rea
 Terminal kept giving clues by telling me to go to different directories and **list** files and cat the ones with particular names. <br>
 Fre files were easy to find whereas few were hidden files and hence had to use **ls -a** to find them. There was a certain command which told me to access the file without changind my directory, but I carelessly changed directory resulting in the destruction of the file and restrarting of the challenge. <br>
 I then came back to this step on my second try and made sure not to change the directory.<br>
-
-
 <br>
 ***Commands***
-
 ```
   cd /
  ls
