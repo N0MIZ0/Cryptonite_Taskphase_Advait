@@ -114,8 +114,9 @@ Then tried running it, but didnt work so I just used the **grep** command to rea
 
 # Epic Filesystem Quest
 Terminal kept giving clues by telling me to go to different directories and **list** files and cat the ones with particular names. <br>
-Fre files were easy to find whereas few were hidden files and hence had to use **ls -a** to find them. There was a certain command which told me to access the file without changind my directory, but I carelessly changed directory resulting in the destruction of the file and restrarting of the challenge. <br>
+Few files were easy to find whereas few were hidden files and hence had to use **ls -a** to find them. There was a certain command which told me to access the file without changind my directory, but I carelessly changed directory resulting in the destruction of the file and restrarting of the challenge. <br>
 I then came back to this step on my second try and made sure not to change the directory.<br>
+Instead, I direcly listed and **cat** them without **cd**.
 <br>
 ***Commands***
 ```
@@ -140,5 +141,13 @@ I then came back to this step on my second try and made sure not to change the d
  cd /opt/radare2/test/notworking_db/linux-arm
  ls
 cat README
+ls /opt/angr-management/_internal/PySide6/Qt/qml/QtQuick/Scene3D
+cat  /opt/angr-management/_internal/PySide6/Qt/qml/QtQuick/Scene3D/ALERT-TRAPPED
+cd /usr/include/c++/9/decimal
+ls
+cat NUGGET
 
 ```
+***Output***<br>
+![{0BAF44E3-5489-4BAF-9489-554793B72AD4}](https://github.com/user-attachments/assets/062c67ba-a7d0-4cd2-bdb4-0a3d6d93a65b)
+
