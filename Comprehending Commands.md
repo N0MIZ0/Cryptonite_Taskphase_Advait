@@ -151,3 +151,15 @@ cat NUGGET
 ***Output***<br>
 ![{0BAF44E3-5489-4BAF-9489-554793B72AD4}](https://github.com/user-attachments/assets/062c67ba-a7d0-4cd2-bdb4-0a3d6d93a65b)
 
+# Making Directories 
+Created a tmp and pwn directory then made a file within named college. Passed the argument **/challenge/run** <br>
+***Commands***
+```
+cd /tmp
+mkdir pwn
+cd pwn
+touch college
+/challenge/run
+```
+***Output***
+![{ED2AB980-D205-4FCC-A46A-19DEB5A070A4}](https://github.com/user-attachments/assets/ed74b5dc-5313-48ad-bf1e-b9fc874860c0)
