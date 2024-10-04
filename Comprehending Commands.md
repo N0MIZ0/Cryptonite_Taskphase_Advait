@@ -161,5 +161,19 @@ cd pwn
 touch college
 /challenge/run
 ```
-***Output***
+***Output*** <br>
 ![{ED2AB980-D205-4FCC-A46A-19DEB5A070A4}](https://github.com/user-attachments/assets/ed74b5dc-5313-48ad-bf1e-b9fc874860c0)
+
+# Find
+**find** and **find -name** will give you specfic locations resepctively.
+<br>
+Used the **find -name** command and got lots of directories with the name file on it. Used **cat** on each of them till I found the flag.<br>
+***Commands***
+```
+find / -name flag
+cat /opt/aflplusplus/frida_mode/test/cache/flag
+```
+***Output***<br>
+![{FBE6D8BC-5392-4AA0-9B7F-76238B0DE29B}](https://github.com/user-attachments/assets/9511e745-19cf-471b-b45b-819ce1140567)
+
+
