@@ -175,5 +175,25 @@ cat /opt/aflplusplus/frida_mode/test/cache/flag
 ```
 ***Output***<br>
 ![{FBE6D8BC-5392-4AA0-9B7F-76238B0DE29B}](https://github.com/user-attachments/assets/9511e745-19cf-471b-b45b-819ce1140567)
+# Linking
+Links can be *hard* and *soft*.<br>
+![{F25D3A00-4313-4495-9F93-B662C90B104E}](https://github.com/user-attachments/assets/17e62815-112f-492b-abb5-eb00ffe98da9)
+<br>
+Hardlink is an alternate address that indexes the data.<br>
+Softlink contains the original file name, linux understands that this is a symbolic link and then access the file. <br>
+Both are same, just the mechanisms are different.<br>
+*symlinks* are created with **ln** command and **-s** as argument. <br>
+Syntax --> ln -s og_file_path SYMLINK. <br>
+**file** command can tell you what type of file it is.
+Syntax --> file file_path <br>
+***Commands***
+```
+rm ~/not-the-flag
+ln -sf /flag ~/not-the-flag
+/challenge/catflag
+```
+
+***Output***<br>
+![{D50E916C-F67C-4F4B-9795-5FF05A3788AD}](https://github.com/user-attachments/assets/0376f699-0bd6-437d-95c8-c850bb8a7bb8)
 
 
