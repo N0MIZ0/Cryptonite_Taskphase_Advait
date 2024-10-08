@@ -48,4 +48,3 @@ The attachment was a 4 slide ppt. I went through the presentation looking for hi
 <br> It was a mirror image, once flipped horizontally it represented a code. From my knowledge in *challenge 9* I concluded that this code was a *cipher* and could be easily decrypted among the 26 permutations of each alphabet being shifter across. As guessed, it was indeed a cipher code and was successfully decoded. <br>
 The decoded text was the correct flag.
 
-X---------------------------X---------------------------X---------------------------X---------------------------X---------------------------X---------------------------X---------------------------X---------------X
