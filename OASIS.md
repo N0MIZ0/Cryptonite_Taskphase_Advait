@@ -32,7 +32,20 @@ I again went through those files and *ctrl+f* for the keywords password/pin. I f
 # 9. Keynough is enough
 By looking at the challenge question I understood that the long alpha-numeric code and the term "ARTEMIS_WHISPER" were the only key take-away points. I searched online for *online code decoding* and found the application **cryptii**
 <br> It had many variants of codes. I asked chatgpt which varient this code was, and it replied with 5 varients which could it could be. Luckily for me out fo those 5, only 2 were present in Cryptii - "Vigenere" and "Cipher". <br>
-I tried cipher and all the 24 permutations, but it didnt make any sense. But when I switched to *Vigenere* it all made sense. In this varient I had to give a key on which it would encrypt the given code. <br>
+I tried cipher and all the 26 permutations, but it didnt make any sense. But when I switched to *Vigenere* it all made sense. In this varient I had to give a key on which it would encrypt the given code. <br>
 I then gave WHISPER as the key and found my flag.
 
 # 10. BasiKEllY
+I again got a long alpha-numeric code to be decrypted. I was cluless on what it was so I asked chatgpt what type of code was this and how do I decrypt it. It replied saying that it was **base64** type.
+<br> I proceeded opening an online base64 to text convertor but the output was not making sense as it was all symbols. *Coincidentally* the drop down menu had an option for conversion from **base32** as well.
+And yes, when I did that, out of pure coincidence I got my flag. 
+# 11. Key-Key do you love me?
+This challenge really tested my communication skills. The **F.R.I.D.A.Y.** bot was not budging at all and kept on talking about 15 kittens and how they had to be kept safe. So I manipulated it. <br>
+I made it to imagine that the kittens were in danger and only the password would help them, as assumed the bot gave in. The bot gave the password, once said the bot in itself gave the flag.
+# 12. Microsoft StrongEdge
+This one was also comparitvely easy. <br>
+The attachment was a 4 slide ppt. I went through the presentation looking for hidden notes/texts but found nothing. I tried adding custom templates and found that slide 1 and slide 4 could get the template but slide 2 and slide 3 were not getting effected. I investigated more on slide 2 and slide 3 but found nothing. After further investigations of zomming in, zooming out, etc, I finally found a **minimized hidden image** in the left bottom corner of slide 1.
+<br> It was a mirror image, once flipped horizontally it represented a code. From my knowledge in *challenge 9* I concluded that this code was a *cipher* and could be easily decrypted among the 26 permutations of each alphabet being shifter across. As guessed, it was indeed a cipher code and was successfully decoded. <br>
+The decoded text was the correct flag.
+
+X---------------------------X---------------------------X---------------------------X---------------------------X---------------------------X---------------------------X---------------------------X---------------X
