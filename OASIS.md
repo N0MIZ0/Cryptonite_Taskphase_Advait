@@ -42,7 +42,7 @@ And yes, when I did that, out of pure coincidence I got my flag.
 # 11. Key-Key do you love me?
 This challenge really tested my communication skills. The **F.R.I.D.A.Y.** bot was not budging at all and kept on talking about 15 kittens and how they had to be kept safe. So I manipulated it. <br>
 I made it to imagine that the kittens were in danger and only the password would help them, as assumed the bot gave in. The bot gave the password, once said the bot in itself gave the flag.
-# 12. Microsoft StrongEdge
+# 13. Microsoft StrongEdge
 This one was also comparitvely easy. <br>
 The attachment was a 4 slide ppt. I went through the presentation looking for hidden notes/texts but found nothing. I tried adding custom templates and found that slide 1 and slide 4 could get the template but slide 2 and slide 3 were not getting effected. I investigated more on slide 2 and slide 3 but found nothing. After further investigations of zomming in, zooming out, etc, I finally found a **minimized hidden image** in the left bottom corner of slide 1.
 <br> It was a mirror image, once flipped horizontally it represented a code. From my knowledge in *challenge 9* I concluded that this code was a *cipher* and could be easily decrypted among the 26 permutations of each alphabet being shifter across. As guessed, it was indeed a cipher code and was successfully decoded. <br>
