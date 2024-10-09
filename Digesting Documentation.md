@@ -45,5 +45,19 @@ man challenge
 ![image](https://github.com/user-attachments/assets/1671e121-c4d4-4145-a898-09347e740ad2)
 
 # Searching FOR Manuals
+Explored **man man**
+<br>***Commands***
+```
+man man
+/n
+q
+man -K 1
+man -K 1 /challenge/challenge
+/challenge/challenge -aswnfd 846
+```
+***Output***<br>
+![{99BA6392-F454-46CA-9998-E54D59F4CD6C}](https://github.com/user-attachments/assets/a74f3ddb-7c7f-465f-86d3-5c01c3f6bff9)
+
+# Helpful Programs
 
 
