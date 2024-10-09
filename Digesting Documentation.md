@@ -60,4 +60,13 @@ man -K 1 /challenge/challenge
 
 # Helpful Programs
 
+using **--help** when programs dont have a man page
+<br>***Commands***
+```
+/challenge/challenge --help
+/challenge/challenge -p
+/challenge/challenge -g 904
+```
+***Output***<br>
+![{0CF08C4D-E4D4-4103-B84D-FF6916B2A7C5}](https://github.com/user-attachments/assets/b95cd865-e597-4c3b-b1ce-4859f0fac567)
 
