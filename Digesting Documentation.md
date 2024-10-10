@@ -70,3 +70,13 @@ using **--help** when programs dont have a man page
 ***Output***<br>
 ![{0CF08C4D-E4D4-4103-B84D-FF6916B2A7C5}](https://github.com/user-attachments/assets/b95cd865-e597-4c3b-b1ce-4859f0fac567)
 
+# Help for Builtins
+This is basically a manual but for builtin commands in the shell.
+<br> ***Commands***
+```
+help challenge
+challenge --secret Q1K-CfDd
+```
+***Output***<br>
+![{402D7E2F-E7EF-4381-8134-F6B414D869D8}](https://github.com/user-attachments/assets/69d582cd-04dd-4ea9-9034-fb5576d9539d)
+
