@@ -90,3 +90,19 @@ cat chal_0
 ```
 ***Output***<br>
 ![{0E843277-AC9B-413B-B985-8D34E1445675}](https://github.com/user-attachments/assets/fd582891-2ea7-4003-b7fa-9fe013682847)
+
+# Writing to multiple programs 
+***Commands***
+```
+/challenge/hack | tee >(/challenge/the) | /challenge/planet
+```
+***Output***<br>
+![{D7B6F21C-C618-4922-934A-2381E9313FCD}](https://github.com/user-attachments/assets/51d9a3ab-4f2b-44dd-b561-b5a7635e4240)
+# Star pipping stderr and stdout
+***Commands***
+```
+/challenge/hack > >(/challenge/planet) 2> >(/challenge/the)
+```
+***Output***<br>
+![{DB7EAB18-69CC-4EA8-A6E9-A1B3ABC11387}](https://github.com/user-attachments/assets/bc4b23d1-4e4b-44d9-8d8d-4b46a25620e2)
+
