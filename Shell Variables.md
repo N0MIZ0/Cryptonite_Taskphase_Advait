@@ -52,6 +52,37 @@ env
 ![{33809CC6-E7A8-448F-A2E9-6AA8DCA6E3E2}](https://github.com/user-attachments/assets/cd300aae-186c-43ae-ab9a-532ca12213b1)
 
 # Storing Command Output
+Command substitution is used to store an output in a variable. <br>
+syntax--> variable=$(command) 
+<br>***Commands***
+```
+PWN=$(/challenge/run)
+echo $PWN
+```
+***Output***<br>
+![{9C9FCFCE-A538-4A0A-9716-9F9E54A3C9DD}](https://github.com/user-attachments/assets/3b822ebe-cb28-431d-b245-3383890d3f11)
+
+# Reading Input
+*read* argument reads the input given by the user. <br>
+"-p" is like a semi print statement which we use during printing the input values. <br>
+syntax --> read -p "INPUT:" variable <br>
+***Commands***
+```
+read PWN
+COLLEGE
+```
+***Output***<br>
+![{2FDEA4DB-FA46-4392-BBE2-82EDE7922BC2}](https://github.com/user-attachments/assets/e11d0ef9-9588-4a79-8c20-3a57f5df87fe)
+
+# Reading Files
+*Important*<br>
+read variable < file
+<br> ***Commands***
+```
+read PWN < /challenge/read_me
+```
+***Output***<br>
+![{84C6BA98-C2BD-48A1-B8D3-4D398149A3B8}](https://github.com/user-attachments/assets/19b5cf0a-00cd-4a47-8fb6-4424c4837120)
 
 
 
